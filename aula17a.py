@@ -4,9 +4,9 @@ num[2] = 3  # Transforma valor na 2ª posição em 3
 num.append(7)  # Adiciona valor 7 no fim
 num.insert(2, 0)  # Adiciona valor 0 na posição 2
 print(num)
-num.sort()  # Ordem alfabética
+num.sort()  # Ordem crescente
 print(num)
-num.sort(reverse=True)  # Ordem alfabética ao contrário
+num.sort(reverse=True)  # Ordem decrescente
 print(num)
 num.pop()  # Remove último valor
 num.pop(2)  # Remove valor na posição 2
